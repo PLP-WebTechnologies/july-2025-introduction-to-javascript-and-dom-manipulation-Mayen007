@@ -1,0 +1,125 @@
+/* CSS for JavaScript Demo */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.section {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #34495e;
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+p {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-left: 4px solid #3498db;
+  min-height: 40px;
+}
+
+/* Specific styles for demo elements */
+#colorBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  border: 2px solid #333;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+#colorBox.red {
+  background-color: lightcoral;
+}
+
+#colorBox.big {
+  width: 300px;
+  height: 150px;
+}
+
+#colorBox.hidden {
+  opacity: 0.3;
+}
+
+#counter {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #2c3e50;
+  margin: 10px 0;
+}
+
+.btn-grp {
+  text-align: center;
+}
+
+#itemList {
+  margin-top: 10px;
+  min-height: 50px;
+  border: 2px dashed #bdc3c7;
+  padding: 10px;
+}
+
+.item {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: #c0392b;
+}
